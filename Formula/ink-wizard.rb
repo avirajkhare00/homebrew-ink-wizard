@@ -6,7 +6,7 @@ class InkWizard < Formula
   sha256 "0cd6f31dfabe5e4cac132520f5890ca486c278a5891634506ae1202aaddc205f"
   license "Apache-2.0"
 
-  depends_on "python@3.8"
+  depends_on "python@3.10"
 
   resource "click" do
     url "https://files.pythonhosted.org/packages/59/87/84326af34517fca8c58418d148f2403df25303e02736832403587318e9e8/click-8.1.3.tar.gz"
@@ -59,6 +59,7 @@ class InkWizard < Formula
   end
 
   def install
+    virtualenv_create(libexec, "python3.10")
     virtualenv_install_with_resources
   end
 
