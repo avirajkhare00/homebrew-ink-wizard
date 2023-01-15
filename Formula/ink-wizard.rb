@@ -23,11 +23,6 @@ class InkWizard < Formula
     sha256 "452f9dc859be7f06631ddcb328b6919c67984aca654e5fefb3914d54691aed60"
   end
 
-  resource "ink-wizard" do
-    url "https://files.pythonhosted.org/packages/86/26/caea7d97eee75851f68c84c6470f3095365410ce855714c0e08d729960fb/ink-wizard-0.1.4.tar.gz"
-    sha256 "0cd6f31dfabe5e4cac132520f5890ca486c278a5891634506ae1202aaddc205f"
-  end
-
   resource "Jinja2" do
     url "https://files.pythonhosted.org/packages/7a/ff/75c28576a1d900e87eb6335b063fab47a8ef3c8b4d88524c4bf78f670cce/Jinja2-3.1.2.tar.gz"
     sha256 "31351a702a408a9e7595a8fc6150fc3f43bb6bf7e319770cbc0db9df9437e852"
