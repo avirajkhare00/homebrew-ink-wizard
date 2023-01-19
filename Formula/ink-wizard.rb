@@ -2,8 +2,8 @@ class InkWizard < Formula
   include Language::Python::Virtualenv
   desc "CLI tool to generate Flipper, PSP22, PSP34, PSP37 smart contracts in Ink."
   homepage "https://github.com/avirajkhare00/ink-wizard"
-  url "https://files.pythonhosted.org/packages/86/26/caea7d97eee75851f68c84c6470f3095365410ce855714c0e08d729960fb/ink-wizard-0.1.4.tar.gz"
-  sha256 "0cd6f31dfabe5e4cac132520f5890ca486c278a5891634506ae1202aaddc205f"
+  url "https://files.pythonhosted.org/packages/4c/42/749e6b1a4ae4d2d9599eeb086b5ac7f74aaf150b6174fedf90caa179e67f/ink-wizard-0.1.6.tar.gz"
+  sha256 "bb91cceb766754fb959072be1e6fb6294800052142ead5287ed86cb406e3e297"
   license "Apache-2.0"
 
   depends_on "python@3.10"
